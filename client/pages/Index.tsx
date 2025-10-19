@@ -51,7 +51,9 @@ export default function Index() {
             {/* Trust Indicators */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-muted-foreground pt-8 border-t border-border">
               <div className="flex flex-col items-center">
-                <span className="font-semibold text-2xl text-primary">100%</span>
+                <span className="font-semibold text-2xl text-primary">
+                  100%
+                </span>
                 <span>Accessible</span>
               </div>
               <div className="flex flex-col items-center">
@@ -109,11 +111,7 @@ export default function Index() {
                     Speed and pitch control
                   </li>
                 </ul>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full"
-                >
+                <Button asChild variant="outline" className="w-full">
                   <Link to="/text-to-speech">Try Now</Link>
                 </Button>
               </div>
@@ -145,11 +143,7 @@ export default function Index() {
                     Speaker identification
                   </li>
                 </ul>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full"
-                >
+                <Button asChild variant="outline" className="w-full">
                   <Link to="/speech-to-text">Try Now</Link>
                 </Button>
               </div>
@@ -285,8 +279,8 @@ export default function Index() {
               Ready to Break Down Barriers?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Join thousands of students who are learning on their own terms with
-              AuraLearn.
+              Join thousands of students who are learning on their own terms
+              with AuraLearn.
             </p>
             <Button
               asChild

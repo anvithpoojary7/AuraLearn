@@ -33,22 +33,15 @@ export default function TextToSpeech() {
                   to bring you the best Text-to-Speech experience.
                 </p>
                 <p className="text-sm text-muted-foreground mb-8">
-                  In the meantime, explore more about our platform or check
-                  back soon for updates.
+                  In the meantime, explore more about our platform or check back
+                  soon for updates.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <Button
-                    asChild
-                    variant="outline"
-                    className="border-2"
-                  >
+                  <Button asChild variant="outline" className="border-2">
                     <Link to="/">Back to Home</Link>
                   </Button>
-                  <Button
-                    asChild
-                    className="bg-primary hover:bg-primary/90"
-                  >
+                  <Button asChild className="bg-primary hover:bg-primary/90">
                     <Link to="/speech-to-text">Try Speech-to-Text</Link>
                   </Button>
                 </div>
